@@ -22,7 +22,7 @@ When using with QtCreator place the .clang-format file in src folder or its pare
 
 ## How to set up QtCreator 
 (clang-format must be installed on your system)
-- activate beautifier plugin (help > about plugins > activate)
+- activate beautifier plugin (help > about plugins > Beautifier)
 - enable auto format (tools > options > Beautifier > General > Enable auto format on file save)
 - select ClangFormat (tools > options > Beautifier > General > Tool: "ClangFormat") 
 - select File (tools > options > Beautifier > Clang Format > Options > Use predefined style: "File")
