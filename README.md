@@ -20,3 +20,12 @@ When using with QtCreator place the .clang-format file in src folder or its pare
 - BreakConstructorInitializers: AfterColon
 - BreakBeforeBraces: Linux   # [description](https://stackoverflow.com/questions/29477654/how-to-make-clang-format-add-new-line-before-opening-brace-of-a-function)
 
+## How to set up QtCreator 
+(clang-format must be installed on your system)
+- activate beautifier plugin (help > about plugins > activate)
+- enable auto format (tools > options > Beautifier > General > Enable auto format on file save)
+- select ClangFormat (tools > options > Beautifier > General > Tool: "ClangFormat") 
+- select File (tools > options > Beautifier > Clang Format > Options > Use predefined style: "File")
+  - (you don't set a file path here. clang-format looks for the .clang-format file as described above)
+
+
