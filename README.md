@@ -19,6 +19,7 @@ When using with QtCreator place the .clang-format file in src folder or its pare
 - ColumnLimit: 0   # disable auto line break
 - BreakConstructorInitializers: AfterColon
 - BreakBeforeBraces: Linux   # [description](https://stackoverflow.com/questions/29477654/how-to-make-clang-format-add-new-line-before-opening-brace-of-a-function)
+- ColumnLimit: 90
 
 ## How to set up QtCreator 
 (clang-format must be installed on your system)
