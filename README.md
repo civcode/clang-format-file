@@ -1,4 +1,4 @@
-# my-clang-format-file
+# clang-format-file
 Personal .clang-format file for Qt projects.
 
 ## How to install clang-format on Ubuntu
